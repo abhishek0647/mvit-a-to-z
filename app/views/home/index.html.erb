@@ -1,43 +1,39 @@
-<nav class="navbar navbar-default" role="navigation">
-<div class="container-fluid"> 
-<!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">MVIT A-Z</a>
+<div id="home-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#home-carousel" data-slide-to="1"></li>
+    <li data-target="#home-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= image_tag("new_block.jpg") %>
+      <div class="carousel-caption">
+        Welcome To Mvit
+      </div>
     </div>
+    <div class="item">
+      <%= image_tag("sticky-paper.jpg") %>
+      <div class="carousel-caption">
+        Welcome To Mvit
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("let-your-voice-be-heard.jpg") %>
+      <div class="carousel-caption">
+        Welcome To Mvit
+      </div>
+    </div>
+    
+  </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Baba</a></li>
-        <li><a href="#">Bhukhad</a></li>
-        <li><a href="#">Heroinwa</a></li>
-        <li><a href="#">Nehalum</a></li>
-        <li><a href="#"data-toggle="modal" data-target=".bs-example-modal-sm">Login</a></li>
-
-        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-              <form role="login">
-                <div class="form-group">
-                  <label for="username">Username</label>
-                  <input type="email" class="form-control" placeholder="Username">
-                  <label for="password">Password</label>
-                  <input type="passsword" class="form-control" placeholder="********">
-                </div>
-                <button type="submit" class="btn btn-success">Submit</button><br />
-                <a href="#">Forgot Password</a><br />
-                <a href="#">Signup </a>
-              </form>
-            </div>
-          </div>
-        </div>        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#home-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#home-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
