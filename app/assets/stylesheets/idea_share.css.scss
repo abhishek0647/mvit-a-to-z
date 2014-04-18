@@ -1,0 +1,15 @@
+// Place all the styles related to the idea-share controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.layer
+{
+	//background: url("<%= image_tag("gsoc-meetup.jpg") %>");
+	
+	size: 1440px 200px;
+	 background-repeat:no-repeat;
+	background-size: 100%;
+}
+.thumbnail > img
+{width: 326px;
+height: 192px;
+}
