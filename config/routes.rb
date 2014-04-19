@@ -1,4 +1,6 @@
 MvitAToZ::Application.routes.draw do
+  match '/idea-share', to: "idea_share#index", via: 'get'
+
   get "home/index"
 
   # The priority is based upon order of creation:
