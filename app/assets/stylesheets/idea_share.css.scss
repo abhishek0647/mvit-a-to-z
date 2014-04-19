@@ -41,10 +41,29 @@ padding-right: 0px;
 	border: none;
 	border-radius: 2px;
 	width: 200px;
-	height: 300px;
+	height: inherit;
 }
 
 .thumbnail > .caption
 {
 	padding: 0px;
+}
+h1{
+	font-size: 46px;
+	padding-top: 5%;
+	padding-left: 5%;
+	color: white;
+}
+.btn-default{
+	color: #050000;
+	background-color: #fff;
+	border-color: #FFFCFC;
+	font-size: 18px;
+	border-radius: 8px;
+	letter-spacing: 1px;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+a{
+	color: #FFF;
 }
